@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+body {
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+/* -------------------- TOP -------------------- */
+header {
+    display: flex;
+    position: relative;
+    background-color: lightblue;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 40%;
+}
+
+.foto{
+    width: 230px;
+    height: 310px;
+}
+.texto {
+    --background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.nombre {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 2.66rem;
+}
+
+/* -------------------- FINAL TOP -------------------- */
+/* -------------------- MAIN -------------------- */
+main {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: lightsalmon;
+}
+
+/* -------------------- BLOQUE 1 -------------------- */
+.bloque1 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategray;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    padding: 45px 0;
+}
+.competencias{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.tic{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.idiomas{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.BLcompetencias{
+    width: 60%;
+}
+.BLidiomas{
+    width: 60%;
+}
+.BLtic {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width:60%;
+}
+
+/* -------------------- FINAL BLOQUE 1 -------------------- */
+/* -------------------- BLOQUE 2 -------------------- */
+.bloque2 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightsteelblue;
+    align-items: center;
+    width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.educacion {
+    font-size: 1.35rem;
+    text-decoration: underline wavy green 5px;
+    
+}
+.factoria{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.BLfactoria{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.cfgs{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.BLcfgs{
+    padding-bottom: 70px;
+}
+.bachillerato{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.BLbachillerato{
+    padding-bottom: 70px;
+}
+.BL{
+    padding-bottom: 70px;
+}
+.experiencia{
+    font-size: 1.35rem;
+    text-decoration: underline wavy green 5px;
+}
+.voluntariado{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.BLvoluntariado{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.otros{
+    font-size: 1.35rem;
+    text-decoration: underline wavy green 5px;}
+.LIotros{
+    padding-bottom: 70px;
+}
+.Disponible{
+    font-weight: bold;
+}
+
+/* -------------------- FINAL BLOQUE 2 -------------------- */
+/* -------------------- FINAL MAIN -------------------- */
+
+@media screen and (max-width: 1180px) {
+    .foto{
+        width: 190px;
+        height: 270px;
+    }
+    .texto {
+        --background-color: lightcoral;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .nombre {
+        margin: 5px;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1095px) {
+    .foto{
+        width: 190px;
+        height: 270px;
+    }
+    .texto {
+        --background-color: lightcoral;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .nombre {
+        margin: 5px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 883px) {
+    .foto{
+        width: 190px;
+        height: 270px;
+    }
+    .texto {
+        --background-color: lightcoral;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .nombre {
+        margin: 5px;
+    }
+    
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloque1, .bloque2{
+        width: 80%;
+        margin: 10px;
+    }
+}
