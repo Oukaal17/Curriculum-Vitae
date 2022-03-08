@@ -57,7 +57,7 @@ main {
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: lightsalmon;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
 }
 
 /* -------------------- BLOQUE 1 -------------------- */
@@ -286,10 +286,21 @@ main {
         font-size: 1rem;
     }
 }
+@media screen and (max-width: 406px) {
+    .bloque2 h3{
+        text-decoration: none;
+    }    
+}
 
-@media screen and (max-width: 457px) {
-    h3 {
+@media screen and (max-width: 497px) {
+    .bloque2 h3 {
         font-size: 1rem;
+    }
+    .bloque2 h4 {
+        font-size: 0.8rem;
+    }
+    li{
+        font-size: 0.8rem;
     }
 }
 
