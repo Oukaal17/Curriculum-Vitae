@@ -13,9 +13,11 @@ body {
 ul {
     list-style: none;
 }
+
 .contact {
     display: none;
 }
+
 /* -------------------- TOP -------------------- */
 header {
     display: flex;
@@ -28,18 +30,20 @@ header {
     height: 40%;
     border-top: 1px solid black;
 }
-.centred{
+
+.centred {
     border-left: 1px solid black;
     border-right: 1px solid black;
-    margin:2px auto;
+    margin: 2px auto;
     width: 100%;
     max-width: 1024px;
 }
+
 .foto {
     width: 230px;
     height: 310px;
-    border: 0.5px inset lightcoral;
-    border-radius: 20px;
+    border: 5px solid transparent;
+    border-image: url(./border.png) 10 stretch;
 }
 
 .texto {
@@ -253,7 +257,7 @@ main {
     h1 {
         font-size: 2rem;
     }
-    
+
 }
 
 @media screen and (max-width: 883px) {
@@ -261,6 +265,7 @@ main {
         width: 190px;
         height: 270px;
     }
+
     header {
         display: flex;
         flex-direction: column;
@@ -293,6 +298,7 @@ main {
         display: flex;
         flex-direction: column;
     }
+
     .contact {
         width: 100%;
         display: flex;
@@ -300,7 +306,7 @@ main {
         bottom: 3%;
         left: 30%;
     }
-    
+
     .btwhats {
         cursor: pointer;
         border-radius: 40px;
@@ -311,6 +317,7 @@ main {
         transform: translateX(-50%);
         margin-right: 20px;
     }
+
     .btinsta {
         cursor: pointer;
         border-radius: 40px;
@@ -321,7 +328,8 @@ main {
         transform: translateX(-50%);
         margin-right: 20px;
     }
-    .btLinkedin{
+
+    .btLinkedin {
         cursor: pointer;
         border-radius: 40px;
         border: 2px solid blue;
@@ -330,6 +338,7 @@ main {
         left: 50%;
         transform: translateX(-50%);
     }
+
     .bloque1, .bloque2 {
         width: 80%;
         margin: 10px;
