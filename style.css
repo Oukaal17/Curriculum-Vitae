@@ -28,6 +28,8 @@ header {
 .foto {
     width: 230px;
     height: 310px;
+    border: 0.5px inset lightcoral;
+    border-radius: 20px;
 }
 
 .texto {
@@ -37,10 +39,12 @@ header {
     align-items: center;
     width: 70%;
 }
-.telefono{
-    display: inline-flex;
+
+.telefono {
+    display: inline-flex;;
 }
-.fa-brands{
+
+.fa-brands {
     /* background-color: salmon; */
     padding: 10px;
     color: green;
@@ -68,7 +72,12 @@ main {
     padding-bottom: 30px;
     background-image: linear-gradient(270deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
 }
-
+.contact {
+    --display: none;
+    display: block;
+    bottom: 0;
+    right: 0;
+}
 /* -------------------- BLOQUE 1 -------------------- */
 .bloque1 {
     display: flex;
@@ -295,20 +304,23 @@ main {
         font-size: 1rem;
     }
 }
+
 @media screen and (max-width: 406px) {
-    .bloque2 h3{
+    .bloque2 h3 {
         text-decoration: none;
-    }    
+    }
 }
 
 @media screen and (max-width: 497px) {
     .bloque2 h3 {
         font-size: 1rem;
     }
+
     .bloque2 h4 {
         font-size: 0.8rem;
     }
-    li{
+
+    li {
         font-size: 0.8rem;
     }
 }
