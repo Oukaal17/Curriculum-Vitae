@@ -7,6 +7,7 @@
 
 body {
     width: 100%;
+    background-image: linear-gradient(lightblue, lightgreen);
 }
 
 ul {
@@ -19,14 +20,21 @@ ul {
 header {
     display: flex;
     position: relative;
-    background-image: linear-gradient(lightblue, lightgreen);
+    /* background-image: linear-gradient(lightblue, lightgreen); */
     justify-content: space-around;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
     height: 40%;
+    border-top: 1px solid black;
 }
-
+.centred{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin:2px auto;
+    width: 100%;
+    max-width: 1024px;
+}
 .foto {
     width: 230px;
     height: 310px;
@@ -73,7 +81,9 @@ main {
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: linear-gradient(-100deg, lightblue, lightgreen);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    /* background-image: linear-gradient(-100deg, lightblue, lightgreen); */
 }
 
 
