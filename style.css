@@ -276,22 +276,30 @@ main {
         width: 190px;
         height: 270px;
     }
-    .centred {
+    header {
         display: flex;
         flex-direction: column;
         background-image: linear-gradient(lightblue, lightgreen);
+        width: 100%;
+        /* background-color: black; */
     }
 
     .texto {
         margin-top: 20px;
+        /* background-color: wheat;; */
+
     }
 
     .nombre {
-        margin: 5px;
+        /* margin: 5px; */
+        /* background-color: wheat; */
+        text-align: center;
+        
     }
 
     h1 {
         font-size: 1.6rem;
+        
     }
 
     main {
@@ -343,6 +351,12 @@ main {
     .bloque1, .bloque2 {
         width: 80%;
         margin: 10px;
+    }
+    .datosContacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
