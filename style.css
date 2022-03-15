@@ -24,7 +24,10 @@ svg{
 .contact {
     display: none;
 }
-
+.svg1{
+    display: inline-flex;
+    width: 300px;
+}
 /* -------------------- TOP -------------------- */
 header {
     display: flex;
@@ -52,7 +55,9 @@ header {
     border: 5px solid transparent;
     border-image: url(./border.png) 10 stretch;
 }
-
+/* .blsvg{
+    display: inline-flex;
+} */
 .texto {
     --background-color: lightcoral;
     display: flex;
@@ -63,7 +68,6 @@ header {
 
 .telefono {
     display: inline-flex;
-    ;
 }
 
 .fa-brands {
@@ -310,8 +314,8 @@ main {
         width: 100%;
         display: flex;
         position: fixed;
-        bottom: 3%;
-        left: 30%;
+        bottom: 5%;
+        justify-content: space-evenly;
     }
 
     .btwhats {
@@ -321,8 +325,8 @@ main {
         background-color: lightgreen;
         padding: 3px 10px;
         left: 50%;
-        transform: translateX(-50%);
-        margin-right: 20px;
+        /* transform: translateX(-50%); */
+        /* margin-right: 10%; */
     }
 
     .btinsta {
@@ -332,8 +336,8 @@ main {
         background-color: lightskyblue;
         padding: 3px 10px;
         left: 50%;
-        transform: translateX(-50%);
-        margin-right: 20px;
+        /* transform: translateX(-50%); */
+        /* margin-right: 10%; */
     }
 
     .btLinkedin {
@@ -343,7 +347,8 @@ main {
         background-color: lightskyblue;
         padding: 3px 10px;
         left: 50%;
-        transform: translateX(-50%);
+        /* transform: translateX(-50%); */
+        /* margin-right: 10%; */
     }
 
     .bloque1, .bloque2 {
