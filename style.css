@@ -103,7 +103,7 @@ main {
 .bloque1 {
     display: flex;
     flex-direction: column;
-    background-color: lightsteelblue;
+    background-image: linear-gradient(lightgreen, lightblue);
     align-items: center;
     width: 30%;
     height: auto;
@@ -144,7 +144,7 @@ main {
 .bloque2 {
     display: flex;
     flex-direction: column;
-    background-color: lightsteelblue;
+    background-image: linear-gradient(lightgreen, lightblue);
     align-items: center;
     width: 50%;
     padding: 50px;
