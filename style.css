@@ -35,6 +35,7 @@ header {
     /* background-image: linear-gradient(lightblue, lightgreen); */
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
     height: 40%;
@@ -50,9 +51,10 @@ header {
 }
 
 .foto {
+    margin-left: 50px;
     width: 230px;
     height: 310px;
-    border: 5px solid transparent;
+    border: 6px solid transparent;
     border-image: url(./border.png) 10 stretch;
 }
 /* .blsvg{
@@ -227,7 +229,7 @@ main {
 @media screen and (max-width: 1180px) {
     .foto {
         width: 190px;
-        height: 270px;
+        height: 290px;
     }
 
     .texto {
@@ -314,36 +316,48 @@ main {
         bottom: 5%;
         justify-content: space-evenly;
     }
+    button{
+        font-size: 1.3rem;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+    .fa-brands{
+        font-size: 1.4rem;
+    }
 
     .btwhats {
+        /* font-size: 1.3rem; */
         cursor: pointer;
         border-radius: 40px;
         border: 2px solid green;
         background-color: lightgreen;
-        padding: 3px 10px;
-        left: 50%;
+        padding: 3px 6px;
+        /* left: 50%; */
         /* transform: translateX(-50%); */
         /* margin-right: 10%; */
     }
 
     .btinsta {
+        /* font-size: 1.3rem; */
         cursor: pointer;
         border-radius: 40px;
         border: 2px solid purple;
         background-color: lightskyblue;
-        padding: 3px 10px;
-        left: 50%;
+        padding: 3px 6px;
+        /* left: 50%; */
         /* transform: translateX(-50%); */
         /* margin-right: 10%; */
     }
 
     .btLinkedin {
+        /* font-size: 1.3rem; */
         cursor: pointer;
         border-radius: 40px;
         border: 2px solid blue;
         background-color: lightskyblue;
-        padding: 3px 10px;
-        left: 50%;
+        padding: 3px 6px;
+        /* left: 50%; */
         /* transform: translateX(-50%); */
         /* margin-right: 10%; */
     }
@@ -363,7 +377,13 @@ main {
 @media screen and (max-width: 560px) {
     .foto {
         width: 120px;
-        height: 150px;
+        height: 165px;
+    }
+    .fa-brands{
+        font-size: medium;
+    }
+    button{
+        font-size: medium;
     }
 
     .texto {
@@ -405,12 +425,19 @@ main {
     li {
         font-size: 0.8rem;
     }
+    .fa-brands{
+        font-size: medium;
+    }
+    button{
+        font-size: small;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
     .foto {
         width: 120px;
-        height: 150px;
+        height: 160px;
     }
 
     .texto {
@@ -435,5 +462,21 @@ main {
 
     li {
         font-size: 0.8rem;
+    }
+
+    .fa-brands{
+        font-size: smaller;
+    }
+    button{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 400px) {
+    button{
+        font-size: 0;
+
+    }
+    .fa-brands{
+        font-size: 2rem;
     }
 }
