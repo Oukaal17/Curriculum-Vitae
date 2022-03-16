@@ -279,7 +279,7 @@ main {
     header {
         display: flex;
         flex-direction: column;
-        background-image: linear-gradient(lightblue, lightgreen);
+        background-image: linear-gradient(lightblue, blue);
         width: 100%;
         /* background-color: black; */
     }
